@@ -1,2 +1,2 @@
-# digital_lesson
-web application for the lyceum "Digital lesson"
+# point_lesson
+web application for the lyceum "Point lesson"
