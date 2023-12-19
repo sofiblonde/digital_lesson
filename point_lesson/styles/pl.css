@@ -298,7 +298,8 @@ body {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  border: 5px solid #76a700;
+  border-radius: 5px;
+  border:solid #76a700;
   background: #76a700;
   color: #fff;
 
