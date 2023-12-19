@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles/pl.css">
+  <link rel="icon" href="img/logo_pl.png">
+  <meta charset="UTF-8" />
+  <title>point_lesson_reg</title>
+
+</head>
+
+<body>
+  <div class="form_reg_block">
+    <div class="form_reg_block_content">
+      <p class="form_reg_block_head_text">Регистрация</p>
+      <form class="form_reg_style" action="#" method="post">
+        <input class="name_input_reg" type="name" name="reg_name" placeholder="Введите имя *" required>
+        <input class="surname_input_reg" type="surname" name="reg_surname" placeholder="Введите фамилию *" required>
+        <input class="patronymic_input_reg" type="patronymic" name="reg_patronymic" placeholder="Введите отчество (если есть)">
+        <input class="birth_input_reg" type="birth" name="reg_birth" placeholder="Введите дату рождения *" minlength="10" maxlength="10" pattern="[0-9][.]" required>
+        <!--<p>Дата рождения должна быть написана в следующем формате: дд.мм.гггг</p>-->
+        <input class="email_input_reg" type="email" name="reg_email" placeholder="Введите почту *" required>
+        <!-- выборка пола -->
+        <div class="selection_gender">
+        <p class="gender_input_text">Выберите пол *</p>
+        <select class="gender_reg" name="gender">
+          <option selected>не выбрано</option>
+          <option value="1">мужской</option>
+          <option value="1">женский</option>
+        </select>
+      </div>
+        <input class="post_input_reg" type="post" name="reg_post" placeholder="Введите должность *" required>
+        <input class="password_input_reg" type="password" name="reg_pass" placeholder="Введите пароль *" required>
+        <input class="password_repeat_input_reg" type="password" name="reg_pass_replay" placeholder="Повторите пароль *" required>
+        <button class="reg_button_register" name="reg_submit_register">Зарегистрироваться</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
